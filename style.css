@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(246, 222, 248);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.ask-me-how {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    margin-top: 40px;
+    margin-left: -700px;
+    text-align: left;
+}
+
+.contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.logo-head{
+    display: flex;
+    align-items: center;
+    text-align:center;
+    border: none;
+    padding: 0px;
+}
+.navbar{
+    gap: 25px;
+}
+
+.navbar a{
+    display: flex;
+}
+
+.navbar a{
+    display: inline;
+    list-style: none;
+    position: relative;
+}
+
+.navbar a {
+    color: black;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+    font-size: 18px; /* Kích thước của icon */
+}
+
+.navbar a {
+    font-size: 18px; /* Kích thước của icon */
+}
+
+.navbar a:hover{
+    color: #06be06;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3.5px;
+    background-color: tomato;
+    transition: all 0.3s;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 3.5px;
+    background-color: tomato;
+    transition: all 0.3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+    left: 0;
+}
+

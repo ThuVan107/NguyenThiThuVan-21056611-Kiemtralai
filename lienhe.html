@@ -1,0 +1,57 @@
+<html>
+<head>
+    <title> Form đóng góp ý kiến </title>
+    <link rel="stylesheet" href="lienhe.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo1.webp" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+
+        <!--menu-->
+        <nav class="navbar">
+            <a href="index.html">ABOUT ME</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="lienhe.html">CONTACT ME</a>
+        </nav>
+
+    </header>
+    <br><br>
+
+<form action="submit.php" method="post">
+    <h1>ĐÓNG GÓP Ý KIẾN VỀ WEBSITE</h1>
+    <p>Góp ý của bạn sẽ được tôi xem xét, vui lòng nhập tiếng việt có dấu.</p>
+</br>
+
+    <div class="form-group">
+        <label for="fullname">Họ và tên:</label>
+        <input type="text" id="fullname" placeholder="Fullname" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="phone">Điện thoại:</label>
+        <input type="text" id="phone" placeholder="Phone" required>
+    </div>
+   
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="content">Nội dung góp ý:</label>
+        <textarea id="content" rows="5" required></textarea>
+    </div>
+    
+    <input type="submit" value="GỬI GÓP Ý">
+
+    <script src="lienhe.js"></script>
+
+  </form>
+
+</body>
+</html>
